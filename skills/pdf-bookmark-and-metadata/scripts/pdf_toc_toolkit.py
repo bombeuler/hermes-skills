@@ -120,7 +120,7 @@ def sheet(pdf, anchors, out, band=(0.0, 0.22), dpi=200, width=1100):
     return out
 
 
-def apply(pdf, entries, meta=None, xmp=None, backup=True, bakdir='~/Documents/hermes-tmp'):
+def apply(pdf, entries, meta=None, xmp=None, backup=True, bakdir='~/pdf-backups'):
     d = fitz.open(pdf)
     n = d.page_count
     bad = [e for e in entries if not (1 <= int(e[2]) <= n)]
