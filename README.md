@@ -37,4 +37,4 @@ Hermes 通过遍历 tap 的 `skills/` 子目录、探测每个目录下是否有
 
 ## 许可
 
-各技能如无另行声明,均为 MIT。
+MIT，见 [LICENSE](LICENSE)。各技能 `SKILL.md` 的 `license` 字段与之一致。
